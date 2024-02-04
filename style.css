@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+}
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 12px;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+.navbar-collapse {
+  justify-content: end;
+}
+.nav-link {
+  color: rgba(0, 0, 0, 0.7) !important;
+  padding: 8px 12px;
+  font-weight: 600;
+}
+.mainContainer {
+  height: 92vh;
+  background-image: url("heroImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.centerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerImg img {
+  margin-top: 10vh;
+  border-radius: 999999%;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  color: #c9d7dd;
+}
+
+#title {
+  color: #e8c872;
+  font-size: 2rem;
+  font-weight: 600;
+}
