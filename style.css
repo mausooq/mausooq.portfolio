@@ -52,4 +52,8 @@
 footer {
   height: 10vh;
   background-color: #6f7c81;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
