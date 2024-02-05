@@ -19,7 +19,7 @@
   font-weight: 600;
 }
 .mainContainer {
-  height: 92vh;
+  height: 82vh;
   background-image: url("heroImg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -48,4 +48,8 @@
   color: #e8c872;
   font-size: 1rem;
   font-weight: 600;
+}
+footer {
+  height: 10vh;
+  background-color: #6f7c81;
 }
